@@ -5,7 +5,7 @@ En JavaScript existen varios tipos de bucles (o loops) que se utilizan para repe
 
 Existe la posibilidad de cometer un error creando el bucle y se convierta en un bucle infinito (una situación donde el programa se queda eternamente en bucle y nunca termina). Para evitarlo, siempre se debe comprobar que existe un ```incremento``` (o ``decremento```) y que en algún momento la condición va a ser falsa y se podrá salir del bucle.
 
-![loop](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/1_loop.png)
+![loop](images/1_loop.png)
 [Fuente:LenguajeJS](https://lenguajejs.com/fundamentos/bucles-e-iteraciones/que-son/)
 
 Se pueden clasificar principalmente en bucles clásicos y bucles modernos para iterar colecciones.
