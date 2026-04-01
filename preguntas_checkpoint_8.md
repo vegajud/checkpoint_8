@@ -239,13 +239,13 @@ edad: 21
 
 Por lo tanto, en JavaScript, ```var```, ```let``` y ```const``` se usan para declarar variables, pero tienen diferencias clave en alcance (scope), reasignación y elevación (hoisting). ```var``` tiene alcance de función y es permisiva; ```let``` tiene alcance de bloque y permite reasignar valores; ```const``` también es de bloque pero no permite reasignar valor. Se recomienda usar ```const``` por defecto, ```let``` si la variable cambia y evitar ```var``` (es la palabra clave más flexible, pero también la más propensa a errores para declarar variables en JavaScript). 
 
-![var_let_const](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/2_var-let-const.png)
+![var_let_const](images/2_var-let-const.png)
 [Fuente:constletvar](http://constletvar.com)
 
 ## ¿Qué es una función de flecha?
 Las Arrow functions o funciones de flecha son una forma corta y compacta de escribir las funciones tradicionales de Javascript. A grandes rasgos, se trata de eliminar la palabra function y añadir el texto ```=>``` antes de abrir las llaves.
 
-![arrow](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/3_arrow.jpeg)
+![arrow](images/3_arrow.jpeg)
 
 *Ejemplo:*
 ```
@@ -289,7 +289,7 @@ Hola después de 2 segundos
 ```
 
 ## ¿Qué es la deconstrucción de variables?
-![deconstruccion](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/5_deconstruccion.png)
+![deconstruccion](images/5_deconstruccion.png)
 
 La deconstrucción de variables (o *destructuring*) es una técnica en programación que permite extraer valores de estructuras de datos (como arrays u objetos) y asignarlos directamente a variables de forma más clara y concisa.
 
@@ -404,7 +404,7 @@ lvl = 25 // no cambia
 En resumen, la deconstrucción en JavaScript es una característica poderosa que mejora la legibilidad y eficiencia del código. Permite extraer propiedades de objetos de manera concisa, asignar valores por defecto, renombrar variables y trabajar con objetos anidados y parámetros de funciones. Su uso adecuado puede simplificar considerablemente la manipulación de datos, especialmente en aplicaciones complejas y al trabajar con APIs.
 
 ## ¿Qué hace el operador de extensión en JS?
-![spread_operator](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/4_spread_operator.png)
+![spread_operator](images/4_spread_operator.png)
 [Fuente: codementor](https://www.codementor.io/@fotiemconstant/spread-operator-in-javascript-1rx3jilf6h)
 
 El operador de extensión o spread operator ```...``` en JavaScript expande elementos de arrays, objetos o iterables en lugares donde se esperan múltiples elementos individuales. Facilita la clonación, unión y manipulación de datos de forma concisa, permitiendo pasar argumentos a funciones o crear nuevas estructuras.
@@ -501,7 +501,7 @@ La programación orientada a objetos (*POO*, u *OOP* en inglés) es un paradigma
 
 ### Conceptos Clave
 
-![Imagen_nombre](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/6_programacion-orientada-objetos.png)
+![POO](images/6_programacion-orientada-objetos.png)
 [Fuente: lenguajejs](https://lenguajejs.com/javascript/oop/que-es/)
 
 **Clases**
@@ -596,7 +596,7 @@ class Mago extends Personaje {
 ```
 
 ## ¿Qué es una promesa en JS?
-![promises](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/7_promises.png)
+![promises](images/7_promises.png)
 Una promesa en JavaScript es un objeto que representa el resultado (éxito o error) de una operación asíncrona (aquella que permite ejecutar tareas de larga duración sin bloquear la interfaz ni detener la ejecución del código restante) que puede completarse ahora, en el futuro o nunca.
 
 ### Crear la promesa
@@ -676,7 +676,7 @@ Por último, un pequeño esquema con los métodos de promesa:
 | .finally(end)       | Ejecuta la función cuando sale de pendiente.|
 
 ## ¿Qué hacen async y await por nosotros?
-![async_await](/Users/juditvega/Desktop/Cursos/programacion_2/checkpoints/checkpoint_8/images/8_async_await.png)
+![async_await](images/8_async_await.png)
 [Fuente: towardsdatascience](https://towardsdatascience.com/intuitive-explanation-of-async-await-in-javascript-730174c000bd/)
 
 ```async``` y ```await``` son una forma más moderna y legible de trabajar con promesas en JavaScript. 
